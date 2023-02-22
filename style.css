@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+	display: flex;
+    min-height: 100%;
+    position: relative;
+}
+
+.tab_bar {
+	flex: 0.5;
+	background-color: #2c2c2c;
+	height: 200vh;
+   z-index: 1;
+}
+.HomePage {
+    display: block;
+    width: 100%;
+    height: 44px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 44px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: #5c5c5c solid 1px;
+}
+:hover.HomePage {
+    background-color: #5c5c5c;
+}
+
+
+.slideBar li {
+list-style-type: none;
+}
+.slideBar li a {
+    text-decoration:  none;
+    display: block;
+    width: 100%;
+    height: 44px;
+    color: #5c5c5c;
+    line-height: 44px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: #5c5c5c solid 1px;
+}
+.slideBar li:hover a {
+    color:#fff;
+    background-color: #5c5c5c;
+}
+.content {
+	flex: 5;
+	padding: 20px;
+    margin-left: 129px;
+    margin-right: 129px;
+}
+.logo {
+    display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+   
+}
+.logo img {
+    display:block;
+}
+
+.content_decreption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+   text-align: center;
+}
+.contnent_about {
+    font-size: 11;
+    padding: 10px 150px;
+    text-justify: inter-word;
+}
+.content_optione {
+    width:calc(100% / 3);
+   margin:  40px 0;
+   float: left;
+}
+.content_select-optione {
+   padding:  0 20px 0 0;
+}
+.content_optione-css {
+    display: flex;
+    padding: 0 10px;
+}
+.content_optione-css img {
+    display: block;
+    padding-top: 20;
+    height: 128px;
+}
+.content_optione-css span {
+    font-size: 14px;
+}
+.content_select-optione p {
+    font-size: 14px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: #5c5c5c solid 1px;
+    
+}
+.footer p {
+    line-height: 50px;
+    padding-left: 260px;
+}
+.slidBar-sub {
+    display: none;
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+    .html {
+        font-size: 16px;
+    }
+    .content_decreption h3 {
+        margin-top: 20px;
+    }
+    .contnent_about {
+        padding:20px  40px;
+        text-align: justify;
+    }
+    .content_optione {
+        width: 100%;
+    }
+    .tab_bar  {
+       display: none;
+    }
+   
+   
+    .content_optione {
+        margin: 20px 0;
+    }
+    .content {
+        margin:  20px 100px;
+    }
+    .footer p {
+        line-height: 50px;
+        padding-left: 120px;
+        opacity: 0.7;
+    }
+    .slidBar-sub {
+        display: block;
+    }
+    .slidBar-sub {
+        display: block;
+        position: absolute;
+        right: 10;
+
+    }
+    .nav {
+        position: fixed;
+    }
+   
+    .nav_Home a  {
+        display: block;
+        background-color: #5c5c5c;
+        height: 50px;
+        color: #fff;
+        width: 100px;
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .nav_sub li:hover a  {
+       background-color: #fff;
+       color: #000;
+    } 
+    .slidBar-sub ul ul {
+        display: none;
+      }
+      .slidBar-sub ul li:hover > ul {
+        display: block;
+        z-index: 1;
+      }
+}
+@media(max-width: 739px) {
+    .container {
+        min-height: 100%;
+        position: relative;
+    }
+    .tab_bar  {
+        display: none;
+    }
+   
+    .logo {
+        display: flex;
+       justify-content: center;
+       margin-bottom: 30px;
+       
+    }
+    .logo img {
+        width: 100px;
+        display:block;
+    }
+    .content {
+        margin: 10px 5px;
+    }
+
+    .content_optione{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .contnent_about {
+        padding: 20px ;
+        text-align: justify;
+    }
+    .footer p {
+        line-height: 50px;
+        padding-left: 260px;
+        opacity: 0.8;
+        font-size: 12px;
+    }
+    .slidBar-sub {
+        display: block;
+        position: absolute;
+        right: 10;
+
+    }
+    .nav {
+        position: fixed;
+    }
+   
+    .nav_Home a  {
+        display: block;
+        background-color: #5c5c5c;
+        height: 50px;
+        color: #fff;
+        width: 100px;
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .nav_sub li:hover a  {
+       background-color: #fff;
+       color: #000;
+    } 
+    .slidBar-sub ul ul {
+        display: none;
+      }
+      .slidBar-sub ul li:hover > ul {
+        display: block;
+        z-index: 1;
+      }
+      
+  
+}
