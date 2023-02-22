@@ -12,7 +12,7 @@
 .tab_bar {
 	flex: 0.5;
 	background-color: #2c2c2c;
-	height: 200vh;
+	height: 100vh;
    z-index: 1;
 }
 .HomePage {
@@ -110,13 +110,14 @@ list-style-type: none;
     
 }
 .footer p {
+    opacity: 0.8;
     line-height: 50px;
     padding-left: 260px;
 }
 .slidBar-sub {
     display: none;
 }
-@media (min-width: 740px) and (max-width: 1024px) {
+@media (min-width: 740px) and (max-width: 1200px) {
     .html {
         font-size: 16px;
     }
@@ -213,9 +214,12 @@ list-style-type: none;
         padding: 20px ;
         text-align: justify;
     }
+    .footer {
+        height: 40px;
+    }
     .footer p {
-        line-height: 50px;
-        padding-left: 260px;
+        line-height: 40px;
+        padding-left: 50px;
         opacity: 0.8;
         font-size: 12px;
     }
