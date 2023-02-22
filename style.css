@@ -73,6 +73,9 @@ list-style-type: none;
     background-color: #efefef;
    text-align: center;
 }
+.content_h3 {
+    padding: 20px 5px 10px 5px;
+}
 .contnent_about {
     font-size: 11;
     padding: 10px 150px;
@@ -101,6 +104,7 @@ list-style-type: none;
 .content_select-optione p {
     font-size: 14px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -121,7 +125,7 @@ list-style-type: none;
     .html {
         font-size: 16px;
     }
-    .content_decreption h3 {
+    .content_select-optione h3 {
         margin-top: 20px;
     }
     .contnent_about {
